@@ -4,8 +4,8 @@ This repository is my first website that I created.
 # about the website
 This website was created as a homework assigment, and I made it about my favorite video game, Dead by Daylight. Dead by Daylight is a cat-and-mouse type of game, 
 where four survivors must repair 5 generators to open exit gates while being hunted by a killer. It's a thriller game that I have come to love with my whole heart. 
-The website acts as a user's guide (for survivors) for new players, although it is not as descriptive as could be -- since it was created with a deadline rather than 
-as a fun project for myself. 
+The website acts as a user's guide (for survivors) for new players, although it is not as descriptive as could be -- since it was created with a deadline rather 
+than as a fun project for myself. 
 
 ## main page (index.html)
 The main page holds a logo (that sends the user to the homescreen), a navigation bar for page navigation, as well as a drop-down image to show the user the main
@@ -24,4 +24,4 @@ as well.
 
 ## contact page (contact.html)
 This page holds links to external websites to Dead by Daylight's webpage and discord server, as well as links to my personal email, steam account, discord profile,
-and my phone number (please don't call me unless you absolutely have to...).
+and my phone number.
