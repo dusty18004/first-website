@@ -1,45 +1,40 @@
+<!-- perks.html -->
+
 <!DOCTYPE html>
 
 <title>
     AGtDBD: Perks
 </title>
 
-<html>
-    <style>
-        body {
-            background-image: url("Website Pics/dbd_background.png");
-            background-position: right;
-            background-repeat: repeat-y;
-            background-color: black;
-            height: 100vh;
-            
-            color: white;
-        }
-    </style>
+<link rel="stylesheet" href="dbd_style.css">
 
-    <header>
-        <h1>
-            AGtDBD: Perks
-        </h1>
+<html>
+    <header class="header">
         <a href="index.html">
             <img src="Website Pics/dbd_logo_transparent.png" alt="logo" style="width:125px; height:auto;">
         </a>
         <nav>
-            <ul>
-                <li><a href="index.html" style="color: white">Home</a></li>
-                <li><a href="character_bloodweb.html" style="color: white">Character & Blood Web</a></li>
-                <li><a href="perks.html" style="color: white">Perks</a></li>
-                <li><a href="contact.html" style="color: white">Contact</a></li>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="character_bloodweb.html">Character & Blood Web</a></li>
+                <li><a href="perks.html">Perks</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+
+    <head>
+         <h1>
+            AGtDBD: Perks
+        </h1>
+    </head>
 
     <body>
         <section>
             <h2 id="perks">
                 Perks
             </h2>
-            <p style="background-color: black">
+            <p>
                 Perks are traits that are essential to surviving a trial. Each character is provided with 3 perks special to their character. These perks can be 
                 shared with other characters you own when the character that has the traits reaches Prestige 1. I will not list all the perks, as there are 11 pages of
                 perks that can be bought through the blood web, but I will list the specific perks for Trevor Belmont and Aestri Yazar, and the perks that I use for 
@@ -48,33 +43,33 @@
                 unlock more perk slots, and you can use more perks that are in your perks inventory.
             </p>
             <figure>
-                <img src="Website Pics/dbd_perks.png" alt="Image of the perks inventory" title="Perks Inventory" width="1024" height="576" /><br>
-                <figcaption>Image of the Perks Inventory of Aestri Yazar with her <em>Bardic Inspiration </em> perk highlighted.</figcaption>
+                <img src="Website Pics/dbd_perks.png" alt="Image of the perks inventory" title="Perks Inventory" /><br>
+                <figcaption>Image of the Perks Inventory of Aestri Yazar with her <em>Bardic Inspiration</em> perk highlighted.</figcaption>
             </figure>
 
-            <section>
+            <section class="characters">
                 <h3>
                     Aestri Yazar
                 </h3>
-                <p style="background-color: black">
+                <p>
                     Aestri Yazar comes with 3 perks that are specific to her character:
                 </p>
-                <dl>
-                    <dt><em>Bardic Inspiration</em></dt>
+                <dl class="perks">
+                    <dt>Bardic Inspiration</dt>
                     <dd>Rolls a D20. Various intervals determine the repair boost of generators for survivors in a 16 meter radius, and lasts for 90 seconds</dd>
 
-                    <dt><em>Mirrored Illusion</em></dt>
+                    <dt>Mirrored Illusion</dt>
                     <dd>After 20% total generator repairs, you can spawn a Static Illusion next to chests, generators, or totems for 40-60 seconds.</dd>
 
-                    <dt><em>Still Sight</em></dt>
+                    <dt>Still Sight</dt>
                     <dd>After standing still for 4-6 seconds, you can see the aura of the killer, generators, and chests in a 24 meter radius until you move again.</dd>
                 </dl>
-                <p style="background-color: black">
+                <p>
                     <br><br>
                     Here are the perks that I use for Aestri Yazar in my gameplay:
                 </p>
-                <dl>
-                    <dt><em>Technician</em> (Feng Min)</dt>
+                <dl class = "perks">
+                    <dt>Technician (Feng Min)</dt>
                     <dd>Noises caused by reparis are reduced by 8 meters, failing a skill check will cause the following:</dd>
                     <ul>
                         <ul>
@@ -84,13 +79,13 @@
                         </ul>
                     </ul>
 
-                    <dt><em>Poised</em> (Jane Romero)</dt>
-                    <dd style="background-color: black">When first starting repairs on a generator, the Killer's aura is revealead for 6 seconds. When completing a generator,
+                    <dt>Poised (Jane Romero)</dt>
+                    <dd>When first starting repairs on a generator, the Killer's aura is revealead for 6 seconds. When completing a generator,
                         you will not leave scratch marks for 14 seconds.
                     </dd>
 
-                    <dt><em>Bardic Inspiration</em> (Aestri Yazar)</dt>
-                    <dd style="background-color: black">Press and hold the Ability Button 1 while standing motionless to enter the performance interaction, lasting 15 seconds, and empowers survivors in a 
+                    <dt>Bardic Inspiration (Aestri Yazar)</dt>
+                    <dd>Press and hold the Ability Button 1 while standing motionless to enter the performance interaction, lasting 15 seconds, and empowers survivors in a 
                         16 meter radius. <br>It has a 90 second cooldown. Roll a 20, and the effect lasts for 90 seconds if the performance is completed:</dd>
                     <ul>
                         <ul>
@@ -101,7 +96,7 @@
                         </ul>
                     </ul>
 
-                    <dt><em>Iron Will</em> (Jake Park)</dt>
+                    <dt>Iron Will (Jake Park)</dt>
                     <dd>Grunts of pain caused by injuries are reduced by <strong>100%</strong>. Doesn't function while <strong>Exhaused</strong>. Does 
                     not inflict <strong>Exhausted</strong>. </dd>
                 </dl>
@@ -109,21 +104,21 @@
 
             <p> <br> </p>
 
-            <section>
+            <section class="characters">
                 <h3>
                     Trevor Belmont
                 </h3>
-                <p style="background-color: black">
+                <p>
                     Trevor Belmont comes with 3 perks that are specific to his character: 
                 </p>
-                <dl>
-                    <dt><em>Exultation</em></dt>
+                <dl class="perks">
+                    <dt>Exultation</dt>
                     <dd>Stunning the killer with a pallet upgrades the rarity of your held item to the next tier. Recharges the item by <em>25%</em>.</dd>
 
-                    <dt><em>Eyes of Belmont</em></dt>
+                    <dt>Eyes of Belmont</dt>
                     <dd>When a generator is completed, the aura of the killer is revealed to you for 1-3 seconds.</dd>
 
-                    <dt><em>Moment of Glory</em></dt>
+                    <dt>Moment of Glory</dt>
                     <dd>After performing the <em>Unlocking or Rummaging</em> action on chests a total of <strong>2 times</strong>, <em>Moment of Glory</em> activates:</dd>
                     <ul>
                         <ul>
@@ -136,48 +131,68 @@
                     </ul>
                 </dl>
 
-                <p style="background-color: black">
+                <p>
                     <br><br>
                     Here are the perks that Hamster uses for Trevor Belmont in his gameplay:
                 </p>
-                <dt><em>Boil Over</em></dt>
-                <dd>While being chased by the Killer, the following affects apply:</dd>
-                    <ul>
+                <dl class="perks">
+                    <dt>Boil Over</dt>
+                    <dd>While being chased by the Killer, the following affects apply:</dd>
                         <ul>
-                            <li>Increases the <em>Struggle Effects</em> on the Killer by your <em>Wiggling</em> by 60-80%.</li>
-                            <li>Supresses the ability of the Killer to read the Auras of all Hooks within <strong>16 meters</strong>.</li>
-                            <li>Grants <strong>+33%</strong> of your current Wiggle progression upon landing, if the Killer drops from height.</li>
-                        </ul>
-                    </ul>
-
-                <dt><em>Off the Record</em></dt>
-                <dd>After being unhooked or unhookin yourself, <em>Off the Record</em> activates for the next 60-80 seconds:</dd>
-                    <ul>
-                        <ul>
-                            <li>Prevents your Auro from being revealed to the Killer, if they attemt to read it.</li>
-                            <li>Sureppses Grunts of Pain when injured.</li>
-                            <li>Grants the <strong>Endurance</strong> Status Effect. </li>
                             <ul>
-                                <li><strong>Endurance</strong> is cancelled prematurely when performing a <em>Conspicuous Action</em>.</li>
+                                <li>Increases the <em>Struggle Effects</em> on the Killer by your <em>Wiggling</em> by 60-80%.</li>
+                                <li>Supresses the ability of the Killer to read the Auras of all Hooks within <strong>16 meters</strong>.</li>
+                                <li>Grants <strong>+33%</strong> of your current Wiggle progression upon landing, if the Killer drops from height.</li>
                             </ul>
                         </ul>
-                    </ul>
 
-                <dt><em>Technician</em> (Feng Min)</dt>
-                <dd>Noises caused by reparis are reduced by 8 meters, failing a skill check will cause the following:</dd>
-                    <ul>
+                    <dt>Off the Record</dt>
+                    <dd>After being unhooked or unhookin yourself, <em>Off the Record</em> activates for the next 60-80 seconds:</dd>
                         <ul>
-                            <li>Generator explosion will be prevented.</li>
-                            <li>The generator looses progress as usual.</li>
-                            <li>An additional <strong>3%</strong> progress is lost.</li>
+                            <ul>
+                                <li>Prevents your Auro from being revealed to the Killer, if they attemt to read it.</li>
+                                <li>Sureppses Grunts of Pain when injured.</li>
+                                <li>Grants the <strong>Endurance</strong> Status Effect. </li>
+                                <ul>
+                                    <li><strong>Endurance</strong> is cancelled prematurely when performing a <em>Conspicuous Action</em>.</li>
+                                </ul>
+                            </ul>
                         </ul>
-                    </ul>
 
-                <dt><em>Windows of Opportunity</em></dt>
-                <dd>The Auras of breakable walls, pallets, and windows are revealed to you within 24-32 meters.</dd>
+                    <dt>Technician (Feng Min)</dt>
+                    <dd>Noises caused by reparis are reduced by 8 meters, failing a skill check will cause the following:</dd>
+                        <ul>
+                            <ul>
+                                <li>Generator explosion will be prevented.</li>
+                                <li>The generator looses progress as usual.</li>
+                                <li>An additional <strong>3%</strong> progress is lost.</li>
+                            </ul>
+                        </ul>
+
+                    <dt>Windows of Opportunity</dt>
+                    <dd>The Auras of breakable walls, pallets, and windows are revealed to you within 24-32 meters.</dd>
+                </dl>
             </section> 
 
+            <section>
+                <h2>
+                    Most Common Perks
+                </h2>
+                <p>
+                    Below is a link to a .docx document that has the top 10 most used perks that surviviors used. The site I used to gather the information is 
+                    linked in the document. 
+                </p>
+                <a href="top_10_most_used_perks.docx" style="font-size: 16px;" download>Top 10 Most Used Survivor Perks</a>
+            </section>
+            <p>
+                <br>
+            </p>
         </section>
-
     </body>
+
+    <footer>
+        <p>
+            Anna Nicol, CS 315: Internet Programming
+        </p>
+    </footer>
 </html>
