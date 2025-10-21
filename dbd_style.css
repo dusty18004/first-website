@@ -1,0 +1,167 @@
+/* dbd_styles.css */
+
+/* basic formatting styling (step 1) */
+body {
+    background-image: url("Website Pics/dbd_background.png");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-color: black;
+    height: 100vh;
+            
+    color: white;
+}
+
+header {
+    color: white;
+}
+
+.header {
+    display: flex;
+}
+
+p {
+    color: white;
+}
+
+footer {
+    color: white;
+}
+
+summary {
+    color: white;
+}
+
+img {
+    width: 1024px;
+    height: 576px;
+}
+
+
+/* anchoring styling (step 2) */
+a {
+    color: darkblue;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: mediumvioletred;
+}
+
+a:visited {
+    color: purple;
+}
+
+
+/* navigation bar (step 3) */
+.navbar {
+    list-style-type: none;
+    padding: 3px;
+    display: flex;
+    margin-top: 33px;
+    font-size: 25px;
+}
+
+.navbar li {
+    padding: 10px;
+    float: left;
+}
+
+.navbar li:nth-child(odd) {
+    background-color: white;
+}
+
+.navbar li:nth-child(even) {
+    background-color: black;
+}
+
+.navbar a {
+    color: green;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    color: darkblue;
+}
+a:active {
+    color: mediumvioletred;
+}
+
+a:visited {
+    color: purple;
+}
+
+
+/* paragraph styling (step 4) */
+.first-paragraph::first-letter{
+    font-size: 40px;
+    color: darkred;
+}
+
+.first-paragraph::first-line {
+    font-style: italic;
+}
+
+
+/* .pdf and .docx file links (step 5) */
+a[href$=".pdf"]:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    background-image: url('pdf_icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+a[href$=".docx"]:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    background-image: url('docx_icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+/* contextual selectors (step 6) */
+.characters > h3 {
+    color: green;
+}
+
+.characters > h4 {
+    color: green;
+}
+
+.perks > dt {
+    color: purple;
+    font-style:italic;
+}
+
+p + figure {
+    border-radius: 20px;
+}
+
+p + img {
+    border-radius: 20px;
+}
+
+
+/* styled block elements (step 7) */
+.styled-blood-web {
+    background-image: url('./Website Pics/style_blood_web.png');
+    border: 10px solid transparent;
+    border-image: url('./Website Pics/dbd_logo_transparent.png') 30 round;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    overflow: scroll;
+}
