@@ -1,41 +1,35 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
 
 <title>
     Anna's Guide to Dead By Daylight
 </title>
 
+<link rel="stylesheet" href="dbd_style.css">
+
 <html>
 
-<head>
-    <style>
-        body {
-            background-image: url("Website Pics/dbd_background.png");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-color: black;
-            height: 100vh;
-            
-            color: white;
-        }
-    </style>
-</head>
-
-<header>
-    <a href="index.html">
+<header class="header">
+    <a href="index.html"></a>
             <img src="Website Pics/dbd_logo_transparent.png" alt="logo" style="width:125px; height:auto;">
     </a>
-    <h1>A Survivor's Guide for New Players: <br>Dead By Daylight</h1>
-    <h2>Feat. Trevor Belmont and Aestri Yazar</h2>
-    <h3>Author: Anna Nicol</h3>
+
     <nav>
-        <ul>
-            <li><a href="index.html" style="font-size: 20px; color:white">Home</a></li>
-            <li><a href="character_bloodweb.html" style="font-size: 20px; color:white">Character & Blood Web</a></li>
-            <li><a href="perks.html" style="font-size: 20px; color: white">Perks</a></li>
-            <li><a href="contact.html" style="font-size: 20px; color: white">Contact</a></li>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="character_bloodweb.html">Character & Blood Web</a></li>
+            <li><a href="perks.html">Perks</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 </header>
+
+<head>
+    <h1>A Survivor's Guide for New Players: <br>Dead By Daylight</h1>
+    <h2>Feat. Trevor Belmont and Aestri Yazar</h2>
+    <h3>Author: Anna Nicol</h3>
+</head>
 
 <body>
     <section>
@@ -46,7 +40,7 @@
             <li>Run Dead By Daylight</li>
             <li>Click Play</li>
                 <details>
-                    <summary>Play Menu</summary>
+                    <summary><u>Play Menu</u></summary>
                     <img src="Website Pics/dbd_play_menu.png" alt="menu when play icon is clicked" title="Play Menu" width="768" height="432" />
                 </details>
             <li>Click Survivor</li>
@@ -55,11 +49,13 @@
         <h2>
             Another User's Guide for Dead by Daylight
         </h2>
-        <p style="background-color: black">
-            This is a guide I found online, which explains the components of Dead by Daylight. Another player of the game wrote this guide for new players. The guide was
-            written on Steam, so download the attached file for the guide if you are playing on Console, or want to keep the guide for your own usage!
-        </p>
-        <a href="dbd_guide.pdf" style="font-size: 16px; color: white" download>DBD Guide Download</a>
+        <div>
+            <p class="first-paragraph">
+                This is a guide I found online, which explains the components of Dead by Daylight. Another player of the game wrote this guide for new players. The guide was
+                written on Steam, so download the attached file for the guide if you are playing on Console, or want to keep the guide for your own usage!
+            </p>
+        </div>
+        <a href="dbd_guide.pdf" style="font-size: 16px;" download>DBD Guide Download</a>
         <p>
             <br>
         </p>    
@@ -67,8 +63,8 @@
 </body>
 
 <footer>
-    <p style="background-color: black">
-        CS 315: Internet Programming
+    <p>
+        Anna Nicol, CS 315: Internet Programming
     </p>
 </footer>
 
